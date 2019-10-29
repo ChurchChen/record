@@ -2,9 +2,9 @@
 
 ## Talking  
 
-Direction:  ***Weakly Supervised*** or ***Transfer Learning***
+Direction:  ***Weakly Supervised*** or ***Transfer Learning*** ?
 
->  Mon, Oct 28th 2019   
+ Mon, Oct 28 th 2019   
 
 > - **独立思考**，提出自己的看法
 > - **聚焦**在某一领域，**深入挖掘**
@@ -55,7 +55,7 @@ Direction:  ***Weakly Supervised*** or ***Transfer Learning***
 
 ##  Today Reading
 
-> Mon, Oct 28th  2019 
+Mon, Oct 28 th  2019 
 
 ### [Weakly Supervised Open-set Domain Adaptation by Dual-domain Collaboration](http://arxiv.org/abs/1904.13179)
 
@@ -67,3 +67,32 @@ In conventional domain adaptation, a critical assumption is that there exists a 
 
 conventional domain adaption assumption source domain and target domain contains the same label space. However, in the real application scenarios is difficult to satisfy this condition. 
 
+
+
+---
+
+## Today Reading
+
+Tue, Oct 29, 2019
+
+发现一个知乎高赞回答读论文的方法，和李老师说的方法高度一致，文中还给出了详细的步骤，原文在[这里](https://www.zhihu.com/question/345516318)。以下是今天的内容，我尝试按照这个思路尝试挖掘文中信息
+
+[Weakly Supervised Complementary Parts Models for Fine-Grained Image Classification from the Bottom Up](http://arxiv.org/abs/1903.02827)
+
+### Original:
+
+Given a training dataset composed of images and corresponding category labels, deep convolutional neural networks show a strong ability in mining discriminative parts for image classification. However, deep convolutional neural networks trained with image level labels only tend to focus on the most discriminative parts while missing other object parts, which could provide complementary information. In this paper, we approach this problem from a different perspective. We build complementary parts models in a weakly supervised manner to retrieve information suppressed by dominant object parts detected by convolutional neural networks. Given image level labels only, we first extract rough object instances by performing weakly supervised object detection and instance segmentation using Mask R-CNN and CRF-based segmentation. Then we estimate and search for the best parts model for each object instance under the principle of preserving as much diversity as possible. In the last stage, we build a bi-directional long short-termmemory (LSTM) network to fuze and encode the partial information ofthese complementary parts into a comprehensive feature for image classification. Experimental results indicate that the proposed method not only achieves significant improvement over our baseline models, but also outperforms state- of-the-art algorithms by a large margin (6.7%, 2.8%, 5.2% respectively) on Stanford Dogs 120, Caltech-UCSD Birds 2011-200 and Caltech 256.
+
+### Extract 
+
++ Question:
+
+  > Deep CNN trained with image level labels only tend to focus on the most discriminative parts while missing other object parts, which could provide complementary information. 
+
++ Method
+
+  > The researchers build complementary parts models in a weakly supervised manner to retrieve information suppressed by dominant object parts detected by convolutional neural networks. Given image level labels only, we first extract rough object instances by performing weakly supervised object detection and instance segmentation using Mask R-CNN and CRF-based segmentation. 
+
++ Answer
+
+  > They estimate and search for the best parts model for each object instance under the principle of preserving as much diversity as possible. In the last stage, we build a bi-directional long short termmemory (LSTM) network to fuze and encode the partial information of these complementary parts into a comprehensive feature for image classification. 
