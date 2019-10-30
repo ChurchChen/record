@@ -96,3 +96,23 @@ Given a training dataset composed of images and corresponding category labels, d
 + Answer
 
   > They estimate and search for the best parts model for each object instance under the principle of preserving as much diversity as possible. In the last stage, we build a bi-directional long short termmemory (LSTM) network to fuze and encode the partial information of these complementary parts into a comprehensive feature for image classification. 
+
+---
+
+## Today Reading 
+
+Tue, Oct 30, 2019
+
+[Weakly Supervised Brain Lesion Segmentation via Attentional Representation Learning](https://link.springer.com/chapter/10.1007%2F978-3-030-32248-9_24)
+
+MICCAI 2019, LNCS 11766, pp. 211–219, 2019
+
+### Abstract
+
+In this paper, we propose a new weakly supervised 3D brain lesion segmentation approach using attentional representation learning. Our approach only requires image-level labels, and is able to produce
+accurate segmentation of the 3D lesion volumes. To achieve that, we design a novel dimensional independent attention mechanism on top of the Class Activation Maps (CAMs), which refines the 3D CAMs to obtain better estimates of the lesion volumes, without introducing significantly more trainable variables. The generated attentional CAMs are then used as a source of weak supervision signals to learn a representation model, which can reliably separate the voxels belong to the lesion volumes from
+those of the normal tissues. The proposed approach has been evaluated on the publicly available BraTS and ISLES datasets. We show with comprehensive experiments that our approach significantly outperforms the competing weakly-supervised methods in both initial lesion localization and the final segmentation, and is able to achieve comparable Dice scores in segmentation comparing to the fully supervised baselines.
+
+### Extract 
+
+The researchers propise a new weakly supervised 3D brain lesion segmentation approach only requires image-level labels, which is able to produce accurate segmentation of the 3D lesion volumes. The proposed approach has been validated on **two public datasets**, the **BraTS** and **ISLES**, where experimental results showv that their approach offers superior performance to the state-of-the-art, and can achieve comparable segmentation accuracy with the fully supervised methods.
