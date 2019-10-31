@@ -116,3 +116,15 @@ those of the normal tissues. The proposed approach has been evaluated on the pub
 ### Extract 
 
 The researchers propise a new weakly supervised 3D brain lesion segmentation approach only requires image-level labels, which is able to produce accurate segmentation of the 3D lesion volumes. The proposed approach has been validated on **two public datasets**, the **BraTS** and **ISLES**, where experimental results showv that their approach offers superior performance to the state-of-the-art, and can achieve comparable segmentation accuracy with the fully supervised methods.
+
+
+
+## Today Reading 
+
+Tue, Oct 31, 2019
+
+[Not All Areas Are Equal: Transfer Learning for Semantic Segmentation via Hierarchical Region Selection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Sun_Not_All_Areas_Are_Equal_Transfer_Learning_for_Semantic_Segmentation_CVPR_2019_paper.pdf)
+
+### Abstract
+
+The success of deep neural networks for semantic segmentation heavily relies on large-scale and well-labeled datasets, which are hard to collect in practice. Synthetic data offers an alternative to obtain ground-truth labels for free. However, models directly trained on synthetic data often struggle to generalize to real images. In this paper, we consider transfer learning for semantic segmentation that aims to mitigate the gap between abundant synthetic data (source domain) and limited real data (target domain). Unlike previous approaches that either learn mappings to target domain or finetune on target images, our proposed method jointly learn from real images and selectively from realistic pixels in synthetic images to adapt to the target domain. Our key idea is to have weighting networks to score how similar the synthetic pixels are to real ones, and learn such weighting at pixel, region and image-levels. We jointly learn these hierarchical weighting networks and segmentation network in an end-to-end manner. Extensive experiments demonstrate that our proposed approach significantly outperforms other existing baselines, and is applicable to scenarios with extremely limited real images.
