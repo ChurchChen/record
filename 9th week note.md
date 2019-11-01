@@ -101,7 +101,7 @@ Given a training dataset composed of images and corresponding category labels, d
 
 ## Today Reading 
 
-Tue, Oct 30, 2019
+Wed, Oct 30, 2019
 
 [Weakly Supervised Brain Lesion Segmentation via Attentional Representation Learning](https://link.springer.com/chapter/10.1007%2F978-3-030-32248-9_24)
 
@@ -121,10 +121,20 @@ The researchers propise a new weakly supervised 3D brain lesion segmentation app
 
 ## Today Reading 
 
-Tue, Oct 31, 2019
+Thu, Oct 31, 2019
 
 [Not All Areas Are Equal: Transfer Learning for Semantic Segmentation via Hierarchical Region Selection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Sun_Not_All_Areas_Are_Equal_Transfer_Learning_for_Semantic_Segmentation_CVPR_2019_paper.pdf)
 
 ### Abstract
 
 The success of deep neural networks for semantic segmentation heavily relies on large-scale and well-labeled datasets, which are hard to collect in practice. Synthetic data offers an alternative to obtain ground-truth labels for free. However, models directly trained on synthetic data often struggle to generalize to real images. In this paper, we consider transfer learning for semantic segmentation that aims to mitigate the gap between abundant synthetic data (source domain) and limited real data (target domain). Unlike previous approaches that either learn mappings to target domain or finetune on target images, our proposed method jointly learn from real images and selectively from realistic pixels in synthetic images to adapt to the target domain. Our key idea is to have weighting networks to score how similar the synthetic pixels are to real ones, and learn such weighting at pixel, region and image-levels. We jointly learn these hierarchical weighting networks and segmentation network in an end-to-end manner. Extensive experiments demonstrate that our proposed approach significantly outperforms other existing baselines, and is applicable to scenarios with extremely limited real images.
+
+
+
+## Today Reading 
+
+Fri, Nov 1, 2019
+
+### Abstract
+
+A profound idea in learning invariant features for transfer learning is to align statistical properties of the domains. In practice, this is achieved by minimizing the disparity between the domains, usually measured in terms of their statistical properties. We question the capability ofthis school of thought and propose to minimize the maximum disparity between domains. Furthermore, we develop an end-to- end learning scheme that enables us to benefit from the proposed min-max strategy in training deep models. We show that the min-max solution can out perform the existing statistical alignment solutions, and can compete with state-of- the-art solutions on two challenging learning tasks, namely, Unsupervised Domain Adaptation (UDA) and Zero-Shot Learning (ZSL).
