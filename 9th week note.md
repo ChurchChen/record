@@ -119,6 +119,8 @@ The researchers propise a new weakly supervised 3D brain lesion segmentation app
 
 
 
+---
+
 ## Today Reading 
 
 Thu, Oct 31, 2019
@@ -131,9 +133,13 @@ The success of deep neural networks for semantic segmentation heavily relies on 
 
 
 
+---
+
 ## Today Reading 
 
 Fri, Nov 1, 2019
+
+[Min-Max Statistical Alignment for Transfer Learning]()
 
 ### Abstract
 
