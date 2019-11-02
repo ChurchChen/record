@@ -144,3 +144,19 @@ Fri, Nov 1, 2019
 ### Abstract
 
 A profound idea in learning invariant features for transfer learning is to align statistical properties of the domains. In practice, this is achieved by minimizing the disparity between the domains, usually measured in terms of their statistical properties. We question the capability ofthis school of thought and propose to minimize the maximum disparity between domains. Furthermore, we develop an end-to- end learning scheme that enables us to benefit from the proposed min-max strategy in training deep models. We show that the min-max solution can out perform the existing statistical alignment solutions, and can compete with state-of- the-art solutions on two challenging learning tasks, namely, Unsupervised Domain Adaptation (UDA) and Zero-Shot Learning (ZSL).
+
+---
+
+
+
+## Today Reading 
+
+Sat, Nov 2, 2019
+
+[Large Scale Fine-Grained Categorization and Domain-Specific Transfer Learning](https://ieeexplore.ieee.org/document/8578530/)
+
+Cornell University, Google Research
+
+### Abstract 
+
+Transferring the knowledge learned from large scale datasets (e.g., ImageNet) via fine-tuning offers an effective solution for domain-specific fine-grained visual categorization (FGVC) tasks (e.g., recognizing bird species or car make & model). In such scenarios, data annotation often calls for specialized domain knowledge and thus is difficult to scale. In this work, we first tackle a problem in large scale FGVC. Our method won first place in iNaturalist 2017 large scale species classification challenge. Central to the success of our approach is a training scheme that uses higher image resolution and deals with the long-tailed distribution of training data. Next, we study transfer learning via fine-tuning from large scale datasets to small scale, domain- specific FGVC datasets. We propose a measure to estimate domain similarity via Earth Mover’s Distance and demon- strate that transfer learning benefits from pre-training on a source domain that is similar to the target domain by this measure. Our proposed transfer learning outperforms Im- ageNet pre-training and obtains state-of-the-art results on multiple commonly used FGVC datasets.
