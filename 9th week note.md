@@ -160,3 +160,17 @@ Cornell University, Google Research
 ### Abstract 
 
 Transferring the knowledge learned from large scale datasets (e.g., ImageNet) via fine-tuning offers an effective solution for domain-specific fine-grained visual categorization (FGVC) tasks (e.g., recognizing bird species or car make & model). In such scenarios, data annotation often calls for specialized domain knowledge and thus is difficult to scale. In this work, we first tackle a problem in large scale FGVC. Our method won first place in iNaturalist 2017 large scale species classification challenge. Central to the success of our approach is a training scheme that uses higher image resolution and deals with the long-tailed distribution of training data. Next, we study transfer learning via fine-tuning from large scale datasets to small scale, domain- specific FGVC datasets. We propose a measure to estimate domain similarity via Earth Mover’s Distance and demon- strate that transfer learning benefits from pre-training on a source domain that is similar to the target domain by this measure. Our proposed transfer learning outperforms Im- ageNet pre-training and obtains state-of-the-art results on multiple commonly used FGVC datasets.
+
+---
+
+
+
+## Today Reading 
+
+Sun, Nov 3, 2019
+
+[3D Face Modeling From Diverse Raw Scan Data](http://arxiv.org/abs/1902.04943)
+
+### Abstract 
+
+Traditional 3D face models learn a latent representation of faces using linear subspaces from limited scans of a single database. The main roadblock(障碍) of building a large-scale face model from diverse 3D databases lies in ***the lack of dense correspondence among raw scans***. To address these problems, this paper proposes an innovative framework to ***jointly learn a nonlinear face model from a diverse set of raw 3D scan databases and establish dense point-to-point correspondence among their scans***. Specifically, by treating input scans as unorganized point clouds, we explore the use of **PointNet architectures** for converting point clouds to identity and expression feature representations, from which the decoder networks recover their 3D face shapes. Further, we propose a **weakly supervised learning** approach that does not require correspondence label for the scans. We demonstrate the superior dense correspondence and representation power of our proposed method, and its contribution to single-image 3D face reconstruction.
