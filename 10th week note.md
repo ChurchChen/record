@@ -28,10 +28,24 @@ These large-scale engineering contributions enable us to answer scientific quest
 
 ## Today Reading 
 
-Mon, Nov 5, 2019
+Tus, Nov 5, 2019
 
 [Few-Shot Image Recognition with Knowledge Transfer]()
 
 ### Abstract
 
 Human can well recognize images of novel categories just after browsing few examples of these categories. One possible reason is that they have some external discriminative visual information about these categories from their prior knowledge. Inspired from this, we propose a novel Knowledge Transfer Network architecture (KTN) for few- shot image recognition. The proposed KTN model jointly incorporates visual feature learning, knowledge inferring and classifier learning into one unified framework for their optimal compatibility. First, the visual classifiers for novel categories are learned based on the convolutional neu- ral network with the cosine similarity optimization. To fully explore the prior knowledge, a semantic-visual mapping network is then developed to conduct knowledge inference, which enables to infer the classifiers for novel categories from base categories. Finally, we design an adaptive fusion scheme to infer the desired classifiers by effectively integrat- ing the above knowledge and visual information. Extensive experiments are conducted on two widely-used Mini- ImageNet and ImageNet Few-Shot benchmarks to evaluate the effectiveness of the proposed method. The results compared with the state-of-the-art approaches show the encouraging performance of the proposed method, especially on 1-shot and 2-shot tasks.
+
+---
+
+
+
+## Today Reading 
+
+Wed, Nov 6, 2019
+
+[Generation of 3D Brain MRI Using Auto-Encoding Generative Adversarial Networks](https://link.springer.com/chapter/10.1007%2F978-3-030-32248-9_14)
+
+### Abstract
+
+As deep learning is showing unprecedented success in medical image analysis tasks, the lack of sufficient medical data is emerging as a critical problem. While recent attempts to solve the limited data problem using Generative Adversarial Networks (GAN) have been successful in generating realistic images with diversity, most of them are based on image-to-image translation and thus require extensive datasets from different domains. Here, we propose a novel model that can successfully generate 3D brain MRI data from random vectors by learning the data distribution. Our 3D GAN model solves both image blurriness and mode collapse problems by leveraging *𝛼*α-GAN that combines the advantages of Variational Auto-Encoder (VAE) and GAN with an additional code discriminator network. We also use the Wasserstein GAN with Gradient Penalty (WGAN-GP) loss to lower the training instability. To demonstrate the effectiveness of our model, we generate new images of normal brain MRI and show that our model outperforms baseline models in both quantitative and qualitative measurements. We also train the model to synthesize brain disorder MRI data to demonstrate the wide applicability of our model. Our results suggest that the proposed model can successfully generate various types and modalities of 3D whole brain volumes from a small set of training data.
