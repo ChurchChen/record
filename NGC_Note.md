@@ -37,15 +37,15 @@ NGC支持的显卡[架构]( https://docs.nvidia.com/ngc/ngc-titan-setup-guide/in
 
 如果是第一次使用NGC，需要[注册账号]( https://ngc.nvidia.com/signup ) 
 
-![1571986579397](https://github.com/ChurchChen/record/tree/master/images/1571986579397.png)
+![1571986579397](https://github.com/ChurchChen/record/blob/master/images/1571986579397.png)
 
 登录之后进入[SETUP界面]( https://ngc.nvidia.com/setup )，点击Get API Key
 
-![1571986906055](https://github.com/ChurchChen/record/tree/master/images/1571986906055.png)
+![1571986906055]( https://github.com/ChurchChen/record/tree/master/images/1571986906055.png)
 
-![1571986949478](https://github.com/ChurchChen/record/tree/master/images/1571986949478.png)
+![1571986949478]( https://github.com/ChurchChen/record/tree/master/images/1571986949478.png)
 
-![1571987066300](https://github.com/ChurchChen/record/tree/master/images/1571987066300.png)
+![1571987066300]( https://github.com/ChurchChen/record/tree/master/images/1571987066300.png)
 
  生成 API Key 成功后，回到 GPU 云服务器命令行，运行如下命令进行登录： 
 
@@ -86,7 +86,7 @@ docker pull nvcr.io/nvidia/pytorch:19.09-py3
 docker images
 ```
 
-![1572152437814](https://github.com/ChurchChen/record/tree/master/images/1572152437814.png)
+![1572152437814]( https://github.com/ChurchChen/record/tree/master/images/1572152437814.png)
 
 
 
