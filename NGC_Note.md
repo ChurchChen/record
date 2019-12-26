@@ -43,9 +43,9 @@ NGC支持的显卡[架构]( https://docs.nvidia.com/ngc/ngc-titan-setup-guide/in
 
 ![1571986906055](https://github.com/ChurchChen/record/blob/master/images/1571986906055.png)
 
-![1571986949478]( https://github.com/ChurchChen/record/tree/master/images/1571986949478.png)
+![1571986949478](https://github.com/ChurchChen/record/blob/master/images/1571986949478.png)
 
-![1571987066300]( https://github.com/ChurchChen/record/tree/master/images/1571987066300.png)
+![1571987066300](https://github.com/ChurchChen/record/blob/master/images/1571987066300.png)
 
  生成 API Key 成功后，回到 GPU 云服务器命令行，运行如下命令进行登录： 
 
@@ -59,7 +59,7 @@ Password: <Your Key>
 
 **登录成功**
 
-![1571987308898](https://github.com/ChurchChen/record/tree/master/images/1571987308898.png)
+![1571987308898](https://github.com/ChurchChen/record/blob/master/images/1571987308898.png)
 
 ---
 
