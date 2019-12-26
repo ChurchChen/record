@@ -18,8 +18,7 @@
 > nvidia-docker run hello-world
 > ```
 >
-> ![1571985817153](https://github.com/ChurchChen/record/tree/master/images/1571985817153.png)
-
+> ![1571985817153](https://github.com/ChurchChen/record/blob/master/images/1571985817153.png)
 ---
 
 
