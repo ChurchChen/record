@@ -65,10 +65,10 @@ Password: <Your Key>
 
 下面获取官方Docker Image, 回到[容器镜像]( https://ngc.nvidia.com/catalog/containers )页面：NGC 提供的深度学习环境镜像 
 
-![1571987535894](https://github.com/ChurchChen/record/tree/master/images/1571987535894.png)
+![1571987535894](https://github.com/ChurchChen/record/blob/master/images/1571987535894.png)
 
 选择需要拉取的镜像，进入对应的页面，以[PyTorch]( https://ngc.nvidia.com/catalog/containers/nvidia:pytorch )为例
-![1571987788457](https://github.com/ChurchChen/record/tree/master/images/1571987788457.png)
+![1571987788457](https://github.com/ChurchChen/record/blob/master/images/1571987788457.png)
 
  运行如下命令 pull 该 image（整个image pull下来需要很长的时间）：
 
@@ -78,7 +78,7 @@ docker pull nvcr.io/nvidia/pytorch:19.09-py3
 
 点击[这里]( https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/rel_19-09.html#rel_19-09 )可以看到对应镜像版本中包含的全部软件
 
-![1572152887759](https://github.com/ChurchChen/record/tree/master/images/1572152887759.png)
+![1572152887759](https://github.com/ChurchChen/record/blob/master/images/1572152887759.png)
 
 拉取镜像完成之后，运行如下命令查看docker中的镜文件
 
@@ -86,7 +86,7 @@ docker pull nvcr.io/nvidia/pytorch:19.09-py3
 docker images
 ```
 
-![1572152437814]( https://github.com/ChurchChen/record/tree/master/images/1572152437814.png)
+![1572152437814]( https://github.com/ChurchChen/record/blob/master/images/1572152437814.png)
 
 
 
@@ -110,7 +110,7 @@ nvidia-docker run -ti -v /mnt:/mnt 9d6 /bin/bash
 
 启动界面如下
 
-![1572152964058](https://github.com/ChurchChen/record/tree/master/images/1572152964058.png)
+![1572152964058](https://github.com/ChurchChen/record/blob/master/images/1572152964058.png)
 
  检查容器中 GPU 驱动是否正常： 
 
@@ -118,4 +118,4 @@ nvidia-docker run -ti -v /mnt:/mnt 9d6 /bin/bash
 nvidia-smi
 ```
 
-![1572153025760](https://github.com/ChurchChen/record/tree/master/images/1572153025760.png)
+![1572153025760](https://github.com/ChurchChen/record/blob/master/images/1572153025760.png)
