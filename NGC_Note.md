@@ -41,7 +41,7 @@ NGC支持的显卡[架构]( https://docs.nvidia.com/ngc/ngc-titan-setup-guide/in
 
 登录之后进入[SETUP界面]( https://ngc.nvidia.com/setup )，点击Get API Key
 
-![1571986906055]( https://github.com/ChurchChen/record/tree/master/images/1571986906055.png)
+![1571986906055](https://github.com/ChurchChen/record/blob/master/images/1571986906055.png)
 
 ![1571986949478]( https://github.com/ChurchChen/record/tree/master/images/1571986949478.png)
 
