@@ -10,25 +10,25 @@
 
   昨天作者又更新了多分类的OOD代码，还有之前一份对抗训练的代码也做了更新，之前报错一直卡住的地方，现在也解决了，**平台搭建完成**，我以后的工作主要围绕着这个来做。
 
-![1587721145383](C:\Users\Church\AppData\Roaming\Typora\typora-user-images\1587721145383.png)
+![1587721145383](https://github.com/ChurchChen/record/blob/master/images/1587721145383.png)
 
 
 
 对抗训练真的是特别慢，单单跑cifar10这个数据集，用了ACM两张卡48G显存，如此高配置下都整整跑了两天
 
-![1587721635249](C:\Users\Church\AppData\Roaming\Typora\typora-user-images\1587721635249.png)
+![1587721635249](https://github.com/ChurchChen/record/blob/master/images/1587721635249.png)
 
 好在跑出来了结果很好，文中报告的是83.5%，相差无几，这是clean状况下的结果，还没有加入PGD攻击，具体的PDG是怎么攻击的，暂时还不明白
 
-![1587721823199](C:\Users\Church\AppData\Roaming\Typora\typora-user-images\1587721823199.png)
+![1587721823199](https://github.com/ChurchChen/record/blob/master/images/1587721823199.png)
 
 从结果来看，这里有一个有趣的现象，在clean情况下的对抗训练，效果要比不加self-supervised惩罚的效果要稍微好一点（也不是特别明显），但是当样本被攻击了以后，加了self-supervised的惩罚这种好处体现就比较明显了。上边结果中攻击20 step和攻击了100 step以后结果是一样的，是因为攻击了20次这种，就已经达到了bound，PGD是一种投影的方法，后边的攻击就被投影到bound之内，不会再起作用。
 
-![1587721302417](C:\Users\Church\AppData\Roaming\Typora\typora-user-images\1587721302417.png)
+![1587721302417](https://github.com/ChurchChen/record/blob/master/images/1587721302417.png)
 
 其他的实验也都能跑出来，从所有实验复现出来的结果看，和论文中的误差不超过5%，还是蛮准的
 
-![1587724619395](C:\Users\Church\AppData\Roaming\Typora\typora-user-images\1587724619395.png)
+![1587724619395](https://github.com/ChurchChen/record/blob/master/images/1587724619395.png)
 
 目前还有两个份代码没有开源出来，如上
 
@@ -57,7 +57,7 @@
 
 现在大量的工作都是去找这个矩阵怎么求，目前有很多工作基于不同的假设提出不一样的方法。
 
-![1587727815010](C:\Users\Church\AppData\Roaming\Typora\typora-user-images\1587727815010.png)
+![1587727815010](https://github.com/ChurchChen/record/blob/master/images/1587727815010.png)
 
 
 
@@ -84,11 +84,11 @@
 
     https://arxiv.org/abs/1603.08511 
 
-![1587723500746](C:\Users\Church\AppData\Roaming\Typora\typora-user-images\1587723500746.png)
+![1587723500746](https://github.com/ChurchChen/record/blob/master/images/1587723500746.png)
 
 效果非常的直观，效果蛮好的，这里用到了生成模型
 
-![1587723688503](C:\Users\Church\AppData\Roaming\Typora\typora-user-images\1587723688503.png)
+![1587723688503](https://github.com/ChurchChen/record/blob/master/images/1587723688503.png)
 
 2. 另一个用的最多，也是很典型的就是我最开始的看看的预测图像旋转的角度这一个
 
@@ -96,5 +96,5 @@
 
    这个的思路也很简单很直观，建模成一个分类的问题，用的是Cross Entropy作为损失函数。还有其他很多的代理任务，也都是建模成做简单的分类问题来处理
 
-   ![1587723912690](C:\Users\Church\AppData\Roaming\Typora\typora-user-images\1587723912690.png)
+   ![1587723912690](https://github.com/ChurchChen/record/blob/master/images/1587723912690.png)
 
